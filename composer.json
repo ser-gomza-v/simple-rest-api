@@ -1,0 +1,26 @@
+{
+    "name": "ser-gomza-v/simple-rest-api",
+    "description": "Simple REST api",
+    "authors": [
+        {
+            "name": "Sergey Gomzyakov",
+            "email": "sgomzyakov@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "SimpleRest\\": "src/"
+        }
+    },
+    "require": {
+        "php" : "^7.2",
+        "ext-json": "*",
+        "symfony/routing": "^4.3",
+        "symfony/http-foundation": "^4.3",
+        "doctrine/orm": "^2.6.2",
+        "doctrine/migrations": "^2.2",
+        "symfony/dependency-injection": "^4.3",
+        "fzaninotto/faker": "^1.9@dev"
+    }
+}
